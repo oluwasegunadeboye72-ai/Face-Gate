@@ -2,15 +2,15 @@ import java.util.Scanner;
 public class FixedPrice{
     public static void main(String []args){
 
-	final double Fixed_pice = 50,000;
+	final double Fixed_Price = 50,000;
 
-	final double Depreciation_value = 8%
+	final double Depreciation_Value = 8%
 
 	Scanner scanner = new Scanner(System.in);
 
-	System.out.print("Enter your Price");
+	System.out.print("Enter your items");
 
-	int numberPrices = scanner.nextInt();
+	int numberItems = scanner.nextInt();
         
         double totalValue = FIXED_PRICE * numberItems;
         
@@ -18,11 +18,11 @@ public class FixedPrice{
         
 	int years = 0;
 
-        while (totalValue > totalthreShold) {
+     	while (totalValue > totalthreshold) {
             
-	totalValue -= totalValue * DEPRECIATION_RATE;
+	   totalValue -= totalValue * DEPRECIATION_RATE;
             
-	years++;
+	   years++;
         
 	}
         
@@ -30,9 +30,15 @@ public class FixedPrice{
 
        }
 
-   }
+    }
 
 }
+
+          
+
+    
+
+
 
 	
 
@@ -54,5 +60,5 @@ public class FixedPrice{
 
 
 
-}
-} 
+
+ 
